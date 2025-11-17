@@ -1,0 +1,39 @@
+name: Build and Release PMEncrypter
+
+on:
+  push:
+    tags:
+      - 'v*'  # COn esta linea, se ejecuta cuando tu subes un tag que empiece con 'v'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Descargar código
+      uses: actions/checkout@v4
+      
+    - name: Configurar .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '6.0.x'
+        
+    - name: Compilar proyecto
+      run: dotnet build --configuration Release
+      
+    - name: Crear ejecutable
+      run: dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish
+      
+    - name: Generar checksum SHA-256
+      run: |
+        $hash = (Get-FileHash -Path "./publish/PMEncrypter.exe" -Algorithm SHA256).Hash
+        "SHA256: $hash" | Out-File -FilePath "./publish/checksum.txt" -Encoding UTF8
+        Get-Content "./publish/checksum.txt"
+        
+    - name: Subir archivos como artefacto
+      uses: actions/upload-artifact@v4
+      with:
+        name: PMEncrypter-Files
+        path: |
+          publish/
+        retention-days: 1
