@@ -1,0 +1,14 @@
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\bin\Debug\net10.0\PMEncrypter.exe
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\bin\Debug\net10.0\PMEncrypter.deps.json
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\bin\Debug\net10.0\PMEncrypter.runtimeconfig.json
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\bin\Debug\net10.0\PMEncrypter.dll
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\bin\Debug\net10.0\PMEncrypter.pdb
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\obj\Debug\net10.0\PMEncrypter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\obj\Debug\net10.0\PMEncrypter.AssemblyInfoInputs.cache
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\obj\Debug\net10.0\PMEncrypter.AssemblyInfo.cs
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\obj\Debug\net10.0\PMEncrypter.csproj.CoreCompileInputs.cache
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\obj\Debug\net10.0\PMEncrypter.dll
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\obj\Debug\net10.0\refint\PMEncrypter.dll
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\obj\Debug\net10.0\PMEncrypter.pdb
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\obj\Debug\net10.0\PMEncrypter.genruntimeconfig.cache
+C:\Users\dante\OneDrive\Documentos\mierdases\sist\PMEncrypter\PMEncrypter\obj\Debug\net10.0\ref\PMEncrypter.dll
