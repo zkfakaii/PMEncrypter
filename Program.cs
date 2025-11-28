@@ -11,7 +11,7 @@ namespace PMEncrypter
         {
             Console.WriteLine("=== PMEncrypter - Herramienta de Hash SHA-256 ===");
             Console.WriteLine();
-            
+
             if (args.Length == 0)
             {
                 MostrarAyuda();
@@ -31,17 +31,17 @@ namespace PMEncrypter
                     }
                     CalcularHash(args[1]);
                     break;
-                    
+
                 case "version":
                     MostrarVersion();
                     break;
-                    
+
                 case "help":
                 case "--help":
                 case "-h":
                     MostrarAyuda();
                     break;
-                    
+
                 default:
                     Console.WriteLine($"Comando desconocido: {comando}");
                     MostrarAyuda();
@@ -61,7 +61,7 @@ namespace PMEncrypter
 
                 string hash = CalculateSHA256(filePath);
                 FileInfo fileInfo = new FileInfo(filePath);
-                
+
                 Console.WriteLine($"Archivo: {Path.GetFileName(filePath)}");
                 Console.WriteLine($"Tamaño: {fileInfo.Length:N0} bytes");
                 Console.WriteLine($"SHA-256: {hash}");
@@ -77,15 +77,15 @@ namespace PMEncrypter
         {
             using SHA256 sha256 = SHA256.Create();
             using FileStream stream = File.OpenRead(filePath);
-            
+
             byte[] hashBytes = sha256.ComputeHash(stream);
-            
+
             StringBuilder sb = new StringBuilder();
             foreach (byte b in hashBytes)
             {
                 sb.Append(b.ToString("x2"));
             }
-            
+
             return sb.ToString();
         }
 
@@ -93,7 +93,7 @@ namespace PMEncrypter
         {
             Console.WriteLine("PMEncrypter v1.0.0");
             Console.WriteLine("Herramienta de cálculo de hash SHA-256");
-            Console.WriteLine("Copyright 2024 - Proyecto de Empaquetado");
+            Console.WriteLine("Copyright 2025 - Proyecto de Empaquetado");
         }
 
         static void MostrarAyuda()

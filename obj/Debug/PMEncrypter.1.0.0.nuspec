@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PMEncrypter</id>
+    <version>1.0.0</version>
+    <authors>PMEncrypter</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="138e482758dfad72c1b5408804a5f8b3342ad55d" />
+    <dependencies>
+      <group targetFramework="net10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Darryl\PMEncrypter\bin\Debug\net10.0\PMEncrypter.runtimeconfig.json" target="lib\net10.0\PMEncrypter.runtimeconfig.json" />
+    <file src="C:\Users\Darryl\PMEncrypter\bin\Debug\net10.0\PMEncrypter.dll" target="lib\net10.0\PMEncrypter.dll" />
+  </files>
+</package>
